@@ -20,4 +20,6 @@ Go to application folder
     mvn clean install
     mvn exec:java
     
-   
+### System Documentation
+
+ It can be found in the file SwMELab1.pdf
