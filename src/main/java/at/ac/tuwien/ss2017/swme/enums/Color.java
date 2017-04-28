@@ -10,12 +10,11 @@ public enum Color {
 
 	public static final List<Color> allColors = new ArrayList<Color>(
 			EnumSet.of(Color.RED, Color.GREEN, Color.WHITE, Color.BLACK, Color.PINK, Color.YELLOW));
-	
 
-	public static Color findColor(String value){
-		if (value==null || value.isEmpty())
+	public static Color findColor(String value) {
+		if (value == null || value.isEmpty())
 			return INVALID;
-		for (Color color: allColors){
+		for (Color color : allColors) {
 			if (color.toString().equalsIgnoreCase(value))
 				return color;
 		}

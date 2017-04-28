@@ -1,6 +1,5 @@
 package at.ac.tuwien.ss2017.swme.game;
 
-import java.io.PrintStream;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
@@ -58,22 +57,6 @@ public class ColorGuessingGame {
 		log.info("Hits:" + hits);
 		log.info("Hits Other Position:" + hitsOtherPosition);
 		log.info("TRY AGAIN!!!!");
-	}
-
-	public List<Color> getTip() {
-		return tip;
-	}
-
-	public List<Color> getCode() {
-		return code;
-	}
-
-	public void setTip(List<Color> tip) {
-		this.tip = tip;
-	}
-
-	public void setCode(List<Color> code) {
-		this.code = code;
 	}
 	
 }
